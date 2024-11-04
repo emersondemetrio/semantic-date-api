@@ -1,0 +1,40 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:@types/node@^22.5.1": "npm:@types/node@22.5.1",
+      "npm:date-fns@^3.6.0": "npm:date-fns@3.6.0",
+      "npm:typescript@^5.5.4": "npm:typescript@5.5.4"
+    },
+    "npm": {
+      "@types/node@22.5.1": {
+        "integrity": "sha512-KkHsxej0j9IW1KKOOAA/XBA0z08UFSrRQHErzEfA3Vgq57eXIMYboIlHJuYIfd+lwCQjtKqUu3UnmKbtUc9yRw==",
+        "dependencies": {
+          "undici-types": "undici-types@6.19.8"
+        }
+      },
+      "date-fns@3.6.0": {
+        "integrity": "sha512-fRHTG8g/Gif+kSh50gaGEdToemgfj74aRX3swtiouboip5JDLAyDE9F11nHMIcvOaXeOC6D7SpNhi7uFyB7Uww==",
+        "dependencies": {}
+      },
+      "typescript@5.5.4": {
+        "integrity": "sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==",
+        "dependencies": {}
+      },
+      "undici-types@6.19.8": {
+        "integrity": "sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@types/node@^22.5.1",
+        "npm:date-fns@^3.6.0",
+        "npm:typescript@^5.5.4"
+      ]
+    }
+  }
+}
